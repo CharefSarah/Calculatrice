@@ -21,7 +21,7 @@ function Del() {
 }
 
 
-function Cent() {
+function cent() {
 
 
     let x = document.getElementById("result").value
