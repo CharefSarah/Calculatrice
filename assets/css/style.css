@@ -13,6 +13,12 @@
     font-family: Prompt;
     src: url("../fonts/Prompt-Medium.ttf") format("TrueType");
 }
+:root {
+    --clr-primary: #000715;
+    --clr-secondary: #3366FF;
+    --clr-accent: #Ffff;
+
+}
 
 
 
@@ -23,15 +29,15 @@
         font-family: Prompt;
     }
 
-
-
-    :root {
-        --clr-primary: #000715;
-        --clr-secondary: #3366FF;
-        --clr-accent: #Ffff;
-
-    }
-
+nav{
+width: 90%;
+padding: 1rem;
+margin: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
     .loader1 {
         position: absolute;
         top: 0;
@@ -45,7 +51,7 @@
         flex-direction: column;
         align-items: center;
         z-index: 10;
-        animation: byeloader 5s forwards linear;
+        animation: byeloader 10s forwards linear;
 
     }
 
