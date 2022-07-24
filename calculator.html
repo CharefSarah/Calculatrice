@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="calculatrice">
+        <div class="screen">
+            <div class="results">
+                <input type="text" id="result" /></td>
+                <div class="stripe"></div>
+            </div>
+        </div>
+        <div class="calculator">
+            <div class="row row1">
+                <button class="btn2" value="c"   onclick="clr()"><b>C</b></button>
+                <button class="btn2" value="del" onclick="Del()"><b>Del</b></button>
+                <button class="btn2" value="%"   onclick="Cent('%')"><b>%</b></button>
+                <button class="btn2" value="/"   onclick="dis('/')"><b>/</b></button>
+
+            </div>
+            <div class="row row2">
+                <button class="btn" value="7" onclick="dis('7')">7</button>
+                <button class="btn" value="8" onclick="dis('8')">8</button>
+                <button class="btn" value="9" onclick="dis('9')">9</button>
+                <button class="btn" value="*" onclick="dis('*')">x</button>
+
+            </div>
+            <div class="row row3">
+                <button class="btn" value="4" onclick="dis('4')">4</button>
+                <button class="btn" value="5" onclick="dis('5')">5</button>
+                <button class="btn" value="6" onclick="dis('6')">6</button>
+                <button class="btn" value="-" onclick="dis('-')">-</button>
+
+            </div>
+            <div class="row row4">
+                <button class="btn" value="1" onclick="dis('1')">1</button>
+                <button class="btn" value="2" onclick="dis('2')">2</button>
+                <button class="btn" value="3" onclick="dis('3')">3</button>
+                <button class="btn" value="+" onclick="dis('+')">+</button>
+
+            </div>
+            <div class="row row5">
+                <button class="btn large_btn" value="0" onclick="dis('0')">0</button>
+                <button class="btn2" value="." onclick="dis('.')">.</button>
+                <button class="btn" value="=" onclick="solve()">=</button>
+            </div>
+
+        </div>
+    </main>
+   
+  
+    <script src="assets/js/scritp.js" async defer></script>
+</body>
+
+</html>
